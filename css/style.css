@@ -1,0 +1,111 @@
+ิbody {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 20px;
+}
+
+/*navbar bg*/
+header{
+        background-color: #53a7ce;
+        text-shadow: gray;
+
+        li {
+            font-size: 17px;
+        }
+    }
+
+    .htext {
+        /*font-weight: 50px;*/
+        color: white;
+    }
+
+    /*firstpage*/
+    .first{
+        background-color: #53a7ce;
+    }
+
+    /*เกริ่น*/
+    .font {
+        font-size: 20px;
+        color: #53a7ce;
+    }
+
+    .title {
+        color: #fa7cc3;
+    }
+
+    bg{
+        background-color: #c5dfec;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 900px;
+        color: #ffc0e4;
+    }
+
+    h2 {
+        font-size: 35px;
+        color: #245683;
+    }
+
+    h3 {
+        color: #245683;
+    }
+
+    footer {
+        background-color: #245683;
+    }
+
+    footer p {
+        font-size: 25px;
+        color: white;
+    }
+
+    footer h2 {
+        font-size: 35px;
+        font-weight: 900px;
+        color: white;
+    }
+
+    .acc-header {
+        font-size: 35px;
+        color: #245683;
+    }
+
+    .center-div {
+        display: flex;
+        justify-content: center;
+        /*จัดกลางในแนวนอน*/
+        flex-direction: column;
+        /*จัดให้รูปภาพและข้อความอยู่ในแนวตั้ง*/
+        align-items: center;
+        /*จัดให้อยู่กลางในแนวตั้ง*/
+        text-align: center;
+        /*จัดข้อความให้อยู่กลาง*/
+    }
+
+    .center-c {
+        justify-content: center;
+        /*จัดข้อความให้อยู่ตรงกลางแนวนอน*/
+        align-items: center;
+        /*จัดข้อความให้อยู่ตรงกลางแนวตั้ง*/
+    }
+
+    .scrolling-wrapper-flexbox {
+        display: flex;
+        overflow-x: auto;
+        overflow: auto;
+        flex-wrap: nowrap;
+    }
+
+    .scrolling-wrapper-flexbox {
+        &::-webkitt-scrollbar {
+            
+        }
+    }
+
+    .div {
+        border: red 2px solid;
+    }
+
+
